@@ -16,7 +16,7 @@ def create_parser():
         '-n',
         '--newprefix',
         type=int,
-        help='This value specifies the size of the subnetworks to display in a network'
+        help='This value specifies the size of the subnetworks to display in the subnetworks'
     )
     return parser.parse_args()
 
@@ -37,8 +37,6 @@ def main():
     print('First to Last Host in Subnet:    {} - {}'.format(hostrange[0], hostrange[-1]))
     print('Supernet of network is:          {}'.format(supernet))
     print('Subnetworks are:                 {}'.format(subnetworks))
-    # for networks in subnetworks:
-    #     print('                                 {}'.format(networks))
 
 if __name__ == '__main__':
     main()
