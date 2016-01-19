@@ -10,4 +10,4 @@ setup(name="subnetcalc",
             'subnetcalc = Subnetcalc:main',
             ],
         }
-    )
+      )
