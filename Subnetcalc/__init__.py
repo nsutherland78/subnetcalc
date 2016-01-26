@@ -1,3 +1,6 @@
+'''
+This program was written to allow users to calculate IP subnets without the use of external tools.
+'''
 import ipaddress
 #  ArgumentParser passes variables directly into the app
 from argparse import ArgumentParser
