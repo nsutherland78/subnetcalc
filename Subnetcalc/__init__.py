@@ -9,7 +9,7 @@ from argparse import ArgumentParser
 def create_parser():
     parser = ArgumentParser(
         description='Calculates subnets'
-        )
+    )
     parser.add_argument(
         'network',
         type=str,

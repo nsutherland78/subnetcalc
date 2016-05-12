@@ -6,8 +6,8 @@ setup(name="subnetcalc",
       author_email="authoremail",
       packages=find_packages(),
       entry_points={
-        'console_scripts':  [
-            'subnetcalc = Subnetcalc:main',
-            ],
-        }
+          'console_scripts': [
+              'subnetcalc = Subnetcalc:main',
+          ],
+      }
       )
