@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 '''
 This program was written to allow users to calculate IP subnets without the use of external tools.
